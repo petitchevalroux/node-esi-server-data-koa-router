@@ -22,8 +22,8 @@ class KoaRouterDataProvider {
                     self.onNotMatched();
                 }
             )
-                .then((data) => {
-                    return resolve(data || ctx.body);
+                .then(() => {
+                    return resolve(ctx.body);
                 })
                 .catch(err => {
                     err.status = err.status || 500;
