@@ -1,6 +1,6 @@
 {
   "name": "esi-server-data-koa-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa-router based data provider for esi-server",
   "scripts": {
     "test": "make tests"
